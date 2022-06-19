@@ -1,0 +1,27 @@
+type NavBar @model @auth(rules: [{allow: public}]) {
+  id: ID!
+}
+
+type HomeWorks @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  task: String
+  content: String
+  name: String
+}
+
+type Quiz @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  question: String
+  option1: String
+  option2: String
+  option3: String
+}
+
+type CourseDetails @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  lecturer: String
+  subject: String
+  content: String
+  datetime: AWSDateTime
+}
+ 

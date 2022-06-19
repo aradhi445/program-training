@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-programtraining-staging-201901-authRole",
+      "UnauthRoleArn": "arn:aws:iam::695041502490:role/amplify-programtraining-staging-201901-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::695041502490:role/amplify-programtraining-staging-201901-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-programtraining-staging-201901-deployment",
+      "UnauthRoleName": "amplify-programtraining-staging-201901-unauthRole",
+      "StackName": "amplify-programtraining-staging-201901",
+      "StackId": "arn:aws:cloudformation:eu-central-1:695041502490:stack/amplify-programtraining-staging-201901/e4d90d40-ef43-11ec-8cb2-0608108889d8",
+      "AmplifyAppId": "d3usmq77r2zbs7"
+    }
+  }
+}
